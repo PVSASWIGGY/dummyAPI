@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 
 public class CreateUsersTests {
     private UsersService usersService;
-    @Getter
-    private static int countOfUsersByMe=5;
     @BeforeClass
     public void beforeClass(){
         usersService=new UsersService();
@@ -21,7 +19,6 @@ public class CreateUsersTests {
         CreateUserRequestBody body=new CreateUserRequestBody.Builder().build();
         CreateUserResponse userResponse= usersService.createUser(body);
         userResponse.assertUser(body);
-        this.countOfUsersByMe++;
     }
 
     @Test

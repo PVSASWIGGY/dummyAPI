@@ -33,7 +33,7 @@ public class CreatePostRequestBody {
             text="this is a text field";
             image="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/800px-Google_Images_2015_logo.svg.png";
             likes=0;
-            owner="62e8fc28a083badbbfc599de";
+            owner="62e915fa4695e25cc7380821";
             tags=new ArrayList<>();
         }
 
