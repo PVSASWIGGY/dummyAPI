@@ -1,7 +1,8 @@
-package com.ultralesson.dummyapi.posts;
+package com.ultralesson.dummyapi.posts.services;
 
-import com.ultralesson.dummyapi.models.CreatePostRequestBody;
-import com.ultralesson.dummyapi.models.PostResponse;
+import com.ultralesson.dummyapi.posts.clients.PostsClient;
+import com.ultralesson.dummyapi.posts.models.CreatePostRequestBody;
+import com.ultralesson.dummyapi.posts.models.PostResponse;
 import io.restassured.response.Response;
 
 public class PostsService {

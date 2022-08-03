@@ -1,9 +1,9 @@
-package com.ultralesson.dummyapi.usertests;
+package com.ultralesson.dummyapi.users.create;
 
-import com.ultralesson.dummyapi.models.CreateUserErrorResponse;
-import com.ultralesson.dummyapi.models.CreateUserRequestBody;
-import com.ultralesson.dummyapi.models.CreateUserResponse;
-import com.ultralesson.dummyapi.users.UsersService;
+import com.ultralesson.dummyapi.users.models.CreateUserErrorResponse;
+import com.ultralesson.dummyapi.users.models.CreateUserRequestBody;
+import com.ultralesson.dummyapi.users.models.CreateUserResponse;
+import com.ultralesson.dummyapi.users.services.UsersService;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 

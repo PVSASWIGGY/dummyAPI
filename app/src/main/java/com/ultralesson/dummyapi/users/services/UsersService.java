@@ -1,9 +1,10 @@
-package com.ultralesson.dummyapi.users;
+package com.ultralesson.dummyapi.users.services;
 
-import com.ultralesson.dummyapi.models.CreateUserErrorResponse;
-import com.ultralesson.dummyapi.models.CreateUserRequestBody;
-import com.ultralesson.dummyapi.models.CreateUserResponse;
-import com.ultralesson.dummyapi.models.GetAllUsersResponse;
+import com.ultralesson.dummyapi.users.clients.UsersClient;
+import com.ultralesson.dummyapi.users.models.CreateUserErrorResponse;
+import com.ultralesson.dummyapi.users.models.CreateUserRequestBody;
+import com.ultralesson.dummyapi.users.models.CreateUserResponse;
+import com.ultralesson.dummyapi.users.models.GetAllUsersResponse;
 import io.restassured.response.Response;
 
 public class UsersService {

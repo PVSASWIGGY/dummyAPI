@@ -1,7 +1,7 @@
-package com.ultralesson.dummyapi.usertests;
+package com.ultralesson.dummyapi.users.get;
 
-import com.ultralesson.dummyapi.models.GetAllUsersResponse;
-import com.ultralesson.dummyapi.users.UsersService;
+import com.ultralesson.dummyapi.users.models.GetAllUsersResponse;
+import com.ultralesson.dummyapi.users.services.UsersService;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

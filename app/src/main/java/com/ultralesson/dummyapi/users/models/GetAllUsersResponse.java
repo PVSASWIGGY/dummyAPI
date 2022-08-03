@@ -1,4 +1,4 @@
-package com.ultralesson.dummyapi.models;
+package com.ultralesson.dummyapi.users.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

@@ -1,5 +1,6 @@
-package com.ultralesson.dummyapi.models;
+package com.ultralesson.dummyapi.posts.models;
 
+import com.ultralesson.dummyapi.posts.models.CreatePostRequestBody;
 import lombok.Getter;
 import lombok.Setter;
 import org.testng.Assert;

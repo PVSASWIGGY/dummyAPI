@@ -1,6 +1,6 @@
-package com.ultralesson.dummyapi.users;
+package com.ultralesson.dummyapi.users.clients;
 
-import com.ultralesson.dummyapi.models.CreateUserRequestBody;
+import com.ultralesson.dummyapi.users.models.CreateUserRequestBody;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 

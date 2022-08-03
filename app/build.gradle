@@ -21,13 +21,13 @@ dependencies {
     implementation 'org.projectlombok:lombok:1.18.22'
 
     // Use TestNG framework, also requires calling test.useTestNG() below
-    testImplementation 'org.testng:testng:7.4.0'
+    implementation 'org.testng:testng:7.4.0'
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.0.1-jre'
 
     //rest assured
-    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.1.1'
+    implementation group: 'io.rest-assured', name: 'rest-assured', version: '5.1.1'
 
     //jackson
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.3'
@@ -35,7 +35,8 @@ dependencies {
 
 
     //lombok
-    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    //compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
     testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
 
 

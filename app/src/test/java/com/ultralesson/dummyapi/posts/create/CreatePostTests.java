@@ -1,8 +1,8 @@
-package com.ultralesson.dummyapi.posttests;
+package com.ultralesson.dummyapi.posts.create;
 
-import com.ultralesson.dummyapi.models.CreatePostRequestBody;
-import com.ultralesson.dummyapi.models.PostResponse;
-import com.ultralesson.dummyapi.posts.PostsService;
+import com.ultralesson.dummyapi.posts.models.CreatePostRequestBody;
+import com.ultralesson.dummyapi.posts.models.PostResponse;
+import com.ultralesson.dummyapi.posts.services.PostsService;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
