@@ -13,7 +13,7 @@ public class GetPostTests {
         postsService=new PostsService();
     }
 
-    @Test
+    @Test(groups={"sanity","post"})
     public void shouldGetPostsById(){
         String id="62e916382c2eccbd5c67fe86";
         PostResponse postResponse= postsService.getPost(id);

@@ -18,7 +18,7 @@ public class IntegrationTests {
         postsClient=new PostsClient();
     }
 
-    @Test
+    @Test(groups={"sanity","post"})
     public void shouldCreateAndDeletePost(){
         CreatePostRequestBody body=new CreatePostRequestBody.Builder().build();
         PostResponse postResponse=postsService.createPost(body);

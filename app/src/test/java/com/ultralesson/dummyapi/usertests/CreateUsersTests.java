@@ -13,14 +13,14 @@ public class CreateUsersTests {
     public void beforeClass(){
         usersService=new UsersService();
     }
-    @Test
+    @Test(groups={"sanity"})
     public void shouldCreateUser(){
         CreateUserRequestBody body=new CreateUserRequestBody.Builder().build();
         CreateUserResponse userResponse= usersService.createUser(body);
         userResponse.assertUser(body);
     }
 
-    @Test
+    @Test(groups={"sanity"})
     public void shouldNotCreateUserWithDuplicateEmail(){
         CreateUserRequestBody body=new CreateUserRequestBody.Builder().email("dummy.user@gmail.com").build();
         CreateUserErrorResponse errorResponse= usersService.CreateUser(body);

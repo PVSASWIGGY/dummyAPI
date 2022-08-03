@@ -52,3 +52,7 @@ tasks.named('test') {
     useTestNG()
 }
 
+task runTests (type: Test){
+    useTestNG()
+}
+

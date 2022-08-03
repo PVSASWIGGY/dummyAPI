@@ -14,14 +14,14 @@ public class GetUsersTests {
         usersService=new UsersService();
     }
 
-    @Test
+    @Test(groups={"sanity","user"})
     public void shouldGetAllUsers(){
         GetAllUsersResponse usersResponse=usersService.getAllUsersResponse();
         Assert.assertEquals(usersResponse.getStatusCode(),200);
         Assert.assertEquals(usersResponse.getDataList().size(),10);
     }
 
-    @Test
+    @Test(groups={"sanity","user"})
     public void shouldGetUsersCreatedByMe(){
         GetAllUsersResponse usersResponse=usersService.getAllUsersByMeResponse();
         Assert.assertEquals(usersResponse.getStatusCode(),200);

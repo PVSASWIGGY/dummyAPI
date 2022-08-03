@@ -13,7 +13,7 @@ public class CreatePostTests {
         postsService=new PostsService();
     }
 
-    @Test
+    @Test(groups={"sanity","post"})
     public void shouldCreatePost(){
         CreatePostRequestBody body=new CreatePostRequestBody.Builder().build();
         PostResponse postResponse= postsService.createPost(body);
