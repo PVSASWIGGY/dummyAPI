@@ -1,10 +1,9 @@
-package com.ultralesson.dummyapi;
+package com.ultralesson.dummyapi.posttests;
 
-import com.ultralesson.dummyapi.create.CreatePostRequestBody;
-import com.ultralesson.dummyapi.create.PostResponse;
+import com.ultralesson.dummyapi.models.CreatePostRequestBody;
+import com.ultralesson.dummyapi.models.PostResponse;
 import com.ultralesson.dummyapi.posts.PostsClient;
 import com.ultralesson.dummyapi.posts.PostsService;
-import com.ultralesson.dummyapi.users.UsersService;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeClass;

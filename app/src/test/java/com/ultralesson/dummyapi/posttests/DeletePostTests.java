@@ -1,4 +1,4 @@
-package com.ultralesson.dummyapi;
+package com.ultralesson.dummyapi.posttests;
 
 import com.ultralesson.dummyapi.posts.PostsClient;
 import io.restassured.response.Response;

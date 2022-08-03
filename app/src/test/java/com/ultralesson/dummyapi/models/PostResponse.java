@@ -1,4 +1,4 @@
-package com.ultralesson.dummyapi.create;
+package com.ultralesson.dummyapi.models;
 
 import lombok.Getter;
 import lombok.Setter;

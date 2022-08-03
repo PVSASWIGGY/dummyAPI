@@ -1,11 +1,10 @@
 package com.ultralesson.dummyapi.users;
 
-import com.ultralesson.dummyapi.create.CreateUserRequestBody;
+import com.ultralesson.dummyapi.models.CreateUserRequestBody;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
 
 public class UsersClient {
     private String appId="62e91453bbc7a02d6fb21d0a";
